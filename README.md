@@ -1,11 +1,10 @@
 # Install WordPress
 For this step we present 2 options
-## Using existing linux system (Ubuntu/debian)
+## Using existing linux system (Debian/Ubuntu)
 ## Using a Docker image from TurnKey Linux
-This option is good to create a completly isolated environment just for development, and can be done in any [Docker Supported plataform](https://docs.docker.com/engine/installation/#platform-support-matrix)
+This option is good to create a completly isolated environment just for development, and can be done in any [Docker supported plataform](https://docs.docker.com/engine/installation/#platform-support-matrix)
 
-First you will need Docker installed, you can follow instruction from:
-https://docs.docker.com/engine/installation/linux/debian/#install-using-the-repository
+First you will need Docker installed, you can follow [this](https://docs.docker.com/engine/installation/linux/debian/#install-using-the-repository) instruction 
 
 ```bash
 docker pull turnkeylinux/wordpress-14.1
