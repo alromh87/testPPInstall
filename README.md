@@ -19,6 +19,10 @@ ssh root@$CIP
 
 At this point you get asked to configure your new server and WordPress instance, then you can go to your brand new WordPress site by visiting your VM's IP address form the browser.
 
+For the API we will be using REST API, that is included from WP 4.7, since docker image comes with WP 4.4 it's requiered to update via WP admin page, login as admin and upgrade by clicking at the mesaage at the lef top corner.
+
+//TODO: add image
+
 #### Restarting configured instance
 In case you shut down your container you will need to re-launch it, first by finding it's ID
 
