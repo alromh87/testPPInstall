@@ -27,7 +27,7 @@ docker ps -a
 ```
 CONTAINER ID | IMAGE | COMMAND | CREATED | STATUS | PORTS | NAMES
 ------------ | ------------- | ------------ | ------------- | ------------ | ------------- | ------------
-3b862c99b491 | turnkeylinux/wordpress-14.1 | "/usr/sbin/start.sh" | 22 hours ago | Exited (137) 21 hours ago |  | zealous_khorana
+**3b862c99b491** | turnkeylinux/wordpress-14.1 | "/usr/sbin/start.sh" | 22 hours ago | Exited (137) 21 hours ago |  | zealous_khorana
 
 and using this id to start and connect to it using your setup password:
 
