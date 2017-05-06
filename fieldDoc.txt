@@ -1,0 +1,42 @@
+Implement using custom post type:
+
+  <Title>
+    name
+  <Editor>
+    paragraph
+  <Custom Fields>
+    lat
+    lng
+    status
+    url
+  <Taxonomy Categories>
+    layers (generar icono)
+  <Taxonomy Tags>
+    hashtags
+
+
+
+
+var marker_data = {
+  latlng: [52.3707599, 4.889869200000021],
+  name: "BOPE",
+  paragraph: "Lorem ipsum Elit in nisi ut ut aute nisi eiusmod ad velit elit culpa pariatur enim dolor officia consectetur officia eu sint commodo deserunt c$
+  layers: [
+    {
+      icon: "fa-wrench",
+      text: "Workshop"
+    },
+    {
+      icon: "fa-cog",
+      text: "Machine Builder"
+    },
+    {
+      icon: "fa-shopping-basket",
+      text: "Shop"
+    }
+  ],
+  status: "Open for visit",
+  url: "http://www.bope.th",
+  hashtags: ["Shredder", "Injection", "Extrusion", "Compression"]
+}
+
